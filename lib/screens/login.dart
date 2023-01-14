@@ -26,6 +26,14 @@ class Login extends StatelessWidget {
                 decoration: const InputDecoration(
                   hintText: 'Password',
                 ),
+              ),
+
+              const SizedBox(height: 10),
+
+              // Button for login
+              ElevatedButton(
+                onPressed: () {},
+                child: const Text('Login'),
               )
             ],
           ),
